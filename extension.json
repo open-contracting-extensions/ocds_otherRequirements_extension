@@ -14,6 +14,9 @@
   "schemas": [
     "release-schema.json"
   ],
+  "codelists": [
+    "reservedParticipation.csv"
+  ],
   "dependencies": [
     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_lots_extension/master/extension.json"
   ]

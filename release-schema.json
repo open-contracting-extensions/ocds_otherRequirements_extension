@@ -33,46 +33,38 @@
         },
         "reservedParticipation": {
           "title": "Reserverd participation",
-          "description": "Whether participation is reserved for specific organizations (e.g. sheltered workshops, organisations pursuing a public service mission)."
+          "description": "Whether participation is reserved for specific organizations (e.g. sheltered workshops, organisations pursuing a public service mission).",
+          "type": [
+            "string",
+            "null"
+          ],
+          "codelist": "reservedParticipation.csv",
+          "openCodelist": true
         },
-        "type": [
-          "string",
-          "null"
-        ],
-        "codelist": "reservedParticipation.csv",
-        "openCodelist": true
-      },
-      "qualificationSystemConditions": {
-        "title": "Qualification system conditions",
-        "descriptions": "The requirements for the candidates to be selected.",
-        "type": [
-          "array",
-          "null"
-        ],
-        "items": [
-          "string",
-          "null"
-        ]
-      },
-      "qualificationSystemMethods": {
-        "title": "Qualification system methods",
-        "descriptions": "The methods employed to assess that the candidates meet the requirements.",
-        "type": [
-          "array",
-          "null"
-        ],
-        "items": [
-          "string",
-          "null"
-        ]
-      },
-      "reductionCriteria": {
-        "title": "Reduction criteria",
-        "description": "",
-        "type": [
-          "string",
-          "null"
-        ]
+        "qualificationSystemConditions": {
+          "title": "Qualification system conditions",
+          "description": "The requirements for the candidates to be selected.",
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "qualificationSystemMethods": {
+          "title": "Qualification system methods",
+          "description": "The methods employed to assess that the candidates meet the requirements.",
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "reductionCriteria": {
+          "title": "Reduction criteria",
+          "description": "",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
       }
     }
   }
