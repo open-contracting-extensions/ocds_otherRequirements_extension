@@ -1,0 +1,79 @@
+{
+  "definitions": {
+    "Tender": {
+      "properties": {
+        "otherRequirements": {
+          "title": "Other requirements",
+          "description": "Description of other requirements to participate to the tender.",
+          "$ref": "#/definitions/OtherRequirements"
+        }
+      }
+    },
+    "Lot": {
+      "properties": {
+        "otherRequirements": {
+          "title": "Other requirements",
+          "description": "Description of other requirements to participate to the tender.",
+          "$ref": "#/definitions/OtherRequirements"
+        }
+      }
+    },
+    "OtherRequirements": {
+      "title": "Other requirements",
+      "description": "Description of other requirements to participate to the tender.",
+      "type": "object",
+      "properties": {
+        "requiresStaffNameQualifications": {
+          "title": "Requires staff name qualifications",
+          "description": "Whether or not the bidders are required to indicate the names and professional qualifications of the staff assigned to performing the contract.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "reservedParticipation": {
+          "title": "Reserverd participation",
+          "description": "Whether participation is reserved for specific organizations (e.g. sheltered workshops, organisations pursuing a public service mission)."
+        },
+        "type": [
+          "string",
+          "null"
+        ],
+        "codelist": "reservedParticipation.csv",
+        "openCodelist": true
+      },
+      "qualificationSystemConditions": {
+        "title": "Qualification system conditions",
+        "descriptions": "The requirements for the candidates to be selected.",
+        "type": [
+          "array",
+          "null"
+        ],
+        "items": [
+          "string",
+          "null"
+        ]
+      },
+      "qualificationSystemMethods": {
+        "title": "Qualification system methods",
+        "descriptions": "The methods employed to assess that the candidates meet the requirements.",
+        "type": [
+          "array",
+          "null"
+        ],
+        "items": [
+          "string",
+          "null"
+        ]
+      },
+      "reductionCriteria": {
+        "title": "Reduction criteria",
+        "description": "",
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    }
+  }
+}
