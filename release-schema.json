@@ -59,7 +59,7 @@
         },
         "reductionCriteria": {
           "title": "Reduction criteria",
-          "description": "",
+          "description": "The criteria or rules for selecting a limited number of qualified candidates to submit bids.",
           "type": [
             "string",
             "null"
