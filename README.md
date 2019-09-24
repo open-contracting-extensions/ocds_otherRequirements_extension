@@ -1,8 +1,6 @@
-# Other requirements
+# Other Requirements
 
-Adds an object that describes other requirements to participate to the tender.
-
-## Guidance
+Adds an object to describe other requirements to participate in a contracting process.
 
 ## Legal context
 
@@ -12,11 +10,10 @@ In the European Union, this extension's fields correspond to [eForms BG-705 (Oth
 
 
 ```json
-
 {
   "tender": {
     "otherRequirements": {
-      "requiresStaffNameQualifications": true,
+      "requiresStaffNamesAndQualifications": true,
       "reservedParticipation": "shelteredWorkshop",
       "qualificationSystemConditions": [
         "The candidates are required to comply with all the technical and financial requisites listed on the National Procurement portal: https://procurement.example.org/requisites",
@@ -30,7 +27,6 @@ In the European Union, this extension's fields correspond to [eForms BG-705 (Oth
     }
   }
 }
-
 ```
 
 ## Issues

@@ -1,9 +1,9 @@
 {
   "name": {
-    "en": "Other requirements"
+    "en": "Other Requirements"
   },
   "description": {
-    "en": "Adds an object that describes other requirements to participate to the tender."
+    "en": "Adds an object to describe other requirements to participate in a contracting process."
   },
   "documentationUrl": {
     "en": "https://github.com/open-contracting-extensions/ocds_otherRequirements_extension"

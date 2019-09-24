@@ -4,7 +4,7 @@
       "properties": {
         "otherRequirements": {
           "title": "Other requirements",
-          "description": "Description of other requirements to participate to the tender.",
+          "description": "Other requirements to participate in the procedure.",
           "$ref": "#/definitions/OtherRequirements"
         }
       }
@@ -13,27 +13,27 @@
       "properties": {
         "otherRequirements": {
           "title": "Other requirements",
-          "description": "Description of other requirements to participate to the tender.",
+          "description": "Other requirements to participate in the lot.",
           "$ref": "#/definitions/OtherRequirements"
         }
       }
     },
     "OtherRequirements": {
       "title": "Other requirements",
-      "description": "Description of other requirements to participate to the tender.",
+      "description": "Other requirements to participate in the procedure or lot.",
       "type": "object",
       "properties": {
-        "requiresStaffNameQualifications": {
-          "title": "Requires staff name qualifications",
-          "description": "Whether or not the bidders are required to indicate the names and professional qualifications of the staff assigned to performing the contract.",
+        "requiresStaffNamesAndQualifications": {
+          "title": "Requires staff names and qualifications",
+          "description": "Whether the bidders are obligated to indicate the names and professional qualifications of the staff assigned to performing the contract.",
           "type": [
             "boolean",
             "null"
           ]
         },
         "reservedParticipation": {
-          "title": "Reserverd participation",
-          "description": "Whether participation is reserved for specific organizations (e.g. sheltered workshops, organisations pursuing a public service mission).",
+          "title": "Reserved participation",
+          "description": "The types of organizations to which participation is reserved.",
           "type": [
             "string",
             "null"
@@ -43,7 +43,7 @@
         },
         "qualificationSystemConditions": {
           "title": "Qualification system conditions",
-          "description": "The requirements for the candidates to be selected.",
+          "description": "The conditions to be fulfilled by candidates in view of their qualification for the system.",
           "type": [
             "array",
             "null"
@@ -51,7 +51,7 @@
         },
         "qualificationSystemMethods": {
           "title": "Qualification system methods",
-          "description": "The methods employed to assess that the candidates meet the requirements.",
+          "description": "The methods according to which each of the qualification system conditions will be verified.",
           "type": [
             "array",
             "null"
