@@ -35,9 +35,12 @@
           "title": "Reserved participation",
           "description": "The types of organizations to which participation is reserved.",
           "type": [
-            "string",
+            "array",
             "null"
           ],
+          "items": {
+            "type": "string"
+          },
           "codelist": "reservedParticipation.csv",
           "openCodelist": true
         },
