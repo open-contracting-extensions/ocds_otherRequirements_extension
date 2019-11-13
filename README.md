@@ -14,7 +14,9 @@ In the European Union, this extension's fields correspond to [eForms BG-705 (Oth
   "tender": {
     "otherRequirements": {
       "requiresStaffNamesAndQualifications": true,
-      "reservedParticipation": "shelteredWorkshop",
+      "reservedParticipation": [
+        "shelteredWorkshop"
+      ],
       "qualificationSystemConditions": [
         "The candidates are required to comply with all the technical and financial requisites listed on the National Procurement portal: https://procurement.example.org/requisites",
         "The candidates are required to create an electronic profile on https://procurement.example.org."
