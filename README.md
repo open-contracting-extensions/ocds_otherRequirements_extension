@@ -36,6 +36,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2022-03-09
+
+* Add `items` to `OtherRequirements.qualificationSystemConditions` and `OtherRequirements.qualificationSystemMethods`
+
 ### 2020-04-24
 
 * Add `minProperties`, `minItems` and/or `minLength` properties.
