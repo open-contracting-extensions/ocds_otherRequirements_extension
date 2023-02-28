@@ -4,7 +4,7 @@ Adds an object to describe other requirements to participate in a contracting pr
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BG-705 (Other Requirements)](https://github.com/eForms/eForms), although not all the fields have been implemented yet. See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
+In the European Union, this extension's fields correspond to [eForms BG-705 (Other Requirements)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/), although not all the fields have been implemented yet. See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
 
 ## Example
 
