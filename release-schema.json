@@ -83,6 +83,15 @@
             "null"
           ],
           "minLength": 1
+        },
+        "securityClearance": {
+          "title": "Security clearance",
+          "description": "The security clearance required to access documents or submit bids.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
         }
       },
       "minProperties": 1
