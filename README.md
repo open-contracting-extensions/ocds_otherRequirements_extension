@@ -73,7 +73,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2023-03-09
 
-* Add `securityClearance` property.
+* Add `OtherRequirements.securityClearance` field.
 
 ### 2022-03-09
 
