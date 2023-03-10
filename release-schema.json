@@ -86,7 +86,7 @@
         },
         "securityClearance": {
           "title": "Security clearance",
-          "description": "The security clearance required to access documents or submit bids.",
+          "description": "Information about the required security clearance (e.g. which clearance level is needed, which team members need it, whether it is needed already for accessing documents or only for contract execution).",
           "type": [
             "string",
             "null"
