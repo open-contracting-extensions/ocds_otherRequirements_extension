@@ -77,7 +77,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2022-03-09
 
-* Add `items` to `OtherRequirements.qualificationSystemConditions` and `OtherRequirements.qualificationSystemMethods`
+* Add `items` to the `OtherRequirements.qualificationSystemConditions` and `OtherRequirements.qualificationSystemMethods` objects.
 
 ### 2020-04-24
 
