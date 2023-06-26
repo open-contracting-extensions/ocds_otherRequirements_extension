@@ -44,8 +44,8 @@
           },
           "codelist": "reservedParticipation.csv",
           "openCodelist": true,
-          "minItems": 1,
-          "uniqueItems": true
+          "uniqueItems": true,
+          "minItems": 1
         },
         "qualificationSystemConditions": {
           "title": "Qualification system conditions",
@@ -58,8 +58,8 @@
             "type": "string",
             "minLength": 1
           },
-          "minItems": 1,
-          "uniqueItems": true
+          "uniqueItems": true,
+          "minItems": 1
         },
         "qualificationSystemMethods": {
           "title": "Qualification system methods",
@@ -72,8 +72,8 @@
             "type": "string",
             "minLength": 1
           },
-          "minItems": 1,
-          "uniqueItems": true
+          "uniqueItems": true,
+          "minItems": 1
         },
         "reductionCriteria": {
           "title": "Reduction criteria",
